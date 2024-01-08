@@ -11,7 +11,7 @@ https://github.com/supreetvajjarmatti/Ecommerce-Website
 
 For Admin Account, please create one with superuser!: python manage.py createsuperuser
 
-run on port no: http://127.0.0.1:8000/
+run on IP: http://127.0.0.1:8000/
 
 
 
