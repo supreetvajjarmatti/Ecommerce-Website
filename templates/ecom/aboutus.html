@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>MAX | About Us</title>
+  <style media="screen">
+    .footer{
+      position: fixed;
+    }
+  </style>
+</head>
+
+<body style="background-color:#f7f7f7;">
+  {%if request.user.is_authenticated%}
+    {% include "ecom/customer_navbar.html" %}
+  {%else%}
+    {% include "ecom/navbar.html" %}
+  {%endif%}
+  <br><br><br>
+  <h1>About MAX</h1><br>
+Welcome to MAX, where style meets convenience, and shopping becomes an experience.</br>
+
+<h1>Our Story</h1><br>
+At MAX, we believe in more than just selling products; we are committed to curating an unparalleled shopping journey for our customers. Founded with a passion for quality and a dedication to customer satisfaction, MAX has grown into a hub for trendsetting fashion and cutting-edge technology.</br>
+
+<h1>Our Vision</h1><br>
+MAX envisions a world where everyone can access the latest trends, innovative products, and unmatched quality without compromising on affordability. We strive to redefine online shopping by combining style, utility, and a seamless user experience.</br> 
+
+<h1>What Sets Us Apart</h1><br>
+Fashion Forward: MAX is not just an e-commerce platform; it's a fashion destination. We pride ourselves on staying ahead of trends and offering a handpicked selection of the latest styles in clothing, accessories, and more.</br>
+
+<h1>Quality Assurance:</h1><br>Your satisfaction is our priority. Every product at MAX undergoes rigorous quality checks to ensure you receive nothing but the best.</br>
+
+<h1>Customer-Centric Approach:</h1><br> We value our customers and are dedicated to providing exceptional service. Our support team is always ready to assist you, making your shopping experience with MAX smooth and enjoyable.</br>
+
+<h1>Innovation in Every Click:</h1><br> MAX embraces technology to enhance your shopping experience. From user-friendly interfaces to cutting-edge features, we're committed to making your online journey seamless and exciting.</br>
+
+<h1>Our Commitment:</h1><br>
+MAX is not just a brand; it's a promise. A promise to deliver style, quality, and innovation right to your doorstep. We invite you to explore our diverse range of products, each selected with care and delivered with a commitment to excellence.</br><br>
+
+Thank you for choosing MAX. Let's redefine shopping together.</br><br>
+
+MAX - Style Redefined, Trends Redefined, You Redefined.</br>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  {% include "ecom/footer.html" %}
+</body>
+
+
+</html>
